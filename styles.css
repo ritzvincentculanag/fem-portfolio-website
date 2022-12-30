@@ -117,6 +117,13 @@ nav [class*="fa-"] {
   color: var(--aqua);
 }
 
+nav h1 [class*="fa-"] {
+  font-size: 120%;
+  margin-right: 1rem;
+  color: var(--magenta);
+  vertical-align: middle;
+}
+
 nav a {
   color: var(--white);
   text-decoration: none;
