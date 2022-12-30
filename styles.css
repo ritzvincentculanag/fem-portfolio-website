@@ -157,3 +157,18 @@ nav a:hover {
     margin-right: auto;
   }
 }
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3rem 0;
+  font-size: 3rem;
+}
