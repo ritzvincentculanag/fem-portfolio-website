@@ -47,10 +47,17 @@ a:hover {
   text-decoration: none;
 }
 
+/* background color divs */
+.section-plum {
+  background-color: var(--plum);
+}
+
 /* intro styles */
 
 #intro {
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #intro p {
@@ -138,6 +145,9 @@ nav a:hover {
   background-color: var(--magenta);
   padding: 0.5rem;
   border-radius: 5px;
+  color: white;
+  font-family: var(--mono);
+  text-decoration: none;
 }
 
 .button:hover {
@@ -160,6 +170,7 @@ nav a:hover {
 
 footer {
   text-align: center;
+  padding: 4rem 0;
 }
 
 footer ul {
