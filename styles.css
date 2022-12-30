@@ -27,4 +27,33 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: var(--magenta);
+}
+
+a:hover {
+  counter-reset: var(--hotmag);
+  text-decoration: none;
+}
+
+/* intro styles */
+
+#intro {
+  padding-bottom: 10rem;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
 }
