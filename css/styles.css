@@ -206,6 +206,10 @@ footer ul {
   padding: 4rem 1rem;
 }
 
+#projects article {
+  margin: 3rem 0;
+}
+
 #projects h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
@@ -257,6 +261,21 @@ footer ul {
   #projects img {
     grid-column: 1 / 6;
     grid-row: 1 / 2;
+  }
+
+  #projects article:nth-child(3) img {
+    grid-column: 6 / 11;
+    grid-row: 1 / 2;
+  }
+
+  #projects article:nth-child(3) .text {
+    grid-column: 1 / 7;
+    text-align: left;
+    order: 2;
+  }
+
+  #projects article:nth-child(3) ul {
+    justify-content: flex-start;
   }
 
   .text {
